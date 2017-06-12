@@ -44,6 +44,8 @@ matrix:
             - xz-utils
             - gcc-multilib
             - g++-multilib
+            # not available in trusty.
+            # - snapcraft
 
     # MAC
     - os: osx

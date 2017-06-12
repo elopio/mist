@@ -119,8 +119,12 @@ gulp.task('build-dist', (cb) => {
                 category: 'WebBrowser',
                 target: [
                     'zip',
-                    'deb'
+                    'deb',
+                    'snap'
                 ]
+            },
+            snap: {
+                confinement: 'devmode'
             },
             win: {
                 target: [
